@@ -2,8 +2,9 @@
   
 Module to interact with Linux OS  
 
-*Read this in other languages: [English](README.md), [Português](README.pr.md), [Español](README.es.md)*
-
+*Read this in other languages: [English](Manual_Linux.md), [Português](Manual_Linux.pr.md), [Español](Manual_Linux.es.md)*
+  
+![banner](imgs/Banner_Linux.png o jpg)
 ## How to install this module
   
 To install the module in Rocketbot Studio, it can be done in two ways:
@@ -11,24 +12,11 @@ To install the module in Rocketbot Studio, it can be done in two ways:
 2. Automatic: When entering Rocketbot Studio on the right margin you will find the **Addons** section, select **Install Mods**, search for the desired module and press install.  
 
 
-## Overview
+## Description of the commands
 
-
-1. Unlock screen  
-This command allows you to unlock the screen of the computer.  
-
-
-
-
-----
-### OS
-
-- linux
-- docker
-
-### Dependencies
-
-### License
+### Unlock screen
   
-![MIT](https://camo.githubusercontent.com/107590fac8cbd65071396bb4d04040f76cde5bde/687474703a2f2f696d672e736869656c64732e696f2f3a6c6963656e73652d6d69742d626c75652e7376673f7374796c653d666c61742d737175617265)  
-[MIT](http://opensource.org/licenses/mit-license.ph)
+This command allows you to unlock the screen of the computer.
+|Parameters|Description|example|
+| --- | --- | --- |
+|Assign result to variable|Variable to save the result of the screen unlock.|result|

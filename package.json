@@ -1,0 +1,94 @@
+{
+    "author": "Nicolas Garcia",
+    "description": "Module to interact with Linux OS",
+    "description_lang": {
+      "en": "Module to interact with Linux OS",
+      "es": "Módulo para interactuar con el sistema operativo Linux",
+      "pr": "Módulo para interagir com o sistema operacional Linux"
+    },
+    "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
+    "version": "1.0.0",
+    "license": "MIT",
+    "homepage": "http://rocketbot.com",
+    "linux": true,
+    "windows": false,
+    "mac": false,
+    "docker": true,
+    "name": "Linux",
+    "dependencies": {},
+    "title": {
+      "en": "Linux",
+      "es": "Linux",
+      "pr": "Linux"
+    },
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAqAAAAKgBefSzxgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJmSURBVEiJpZXNS1VRFMV/a5+XwUPQmlQaUalJaJEaDaqZ2QfNgiaNIg0ygqAGDRrUoEFBf0RFTgwa2KAMES2KopmTkITQPiQIRRooUXc3uPfl8/nuu088cOCeffbe6+yz1tkXdydrApsMuy9sWtiC0BDQUVVsNU5CI8K8ZM4CjesGAJrLJHdhbtidrHgjc+R2gg/FExz1OVyLv709Mzob4M+iY29Bk8IPAHNg0xAtgvZlRSu5hnQHqUvoNqhJMOHQBv4ddBxwJ8q7+1Jqgio4OCRsBtierPMivC/wAOxYLwd54CeEk5LaDLvn+BPgU7xvpyqGZ1dgN4AuyHVDOA9sjO2hN6liqmBbs0yBDqEXKXsbhM3E12S31gwQ37VNQu5EhepuJlUsAs1rBLBLwj6SKC3lELuXH15KpentwSbALme3kfBuWVHhbFUAwBFhS0BdFSK4WtQ+vgE1mTI1rB981N0XsmWsz0WLBmDbylzlpAs9QPrrXDlqS9abKwJIagDqQHsl5StlllRr+NES849UAEl7hB46USf4rNCzyiDhnKOOIsMvCKdXuCyTYYOGPQI6E6K3CpsXeknKSwW7DqFPhDGh58B+wx6UVZEI46sThAuJ/C6Wb2Q2ALljJaD9xT+igizrRfhQXucaAQ6WyLjdsMGkm+4q2asTYQyoLwZoFeEN0LS6ilyPsK+GDQg9FeGVsKioXdckORRXHMaBw/8PmGwi5c4Y3u14s9BchIbh7zDQImw0Voe+QDQP2kKs+S1O1AosCD129Bqiu+7+exXJJWU2QuhNiB8oEF+G5CvCphKflnI+/wBnIVHW6fVt+AAAAABJRU5ErkJggg==",
+    "children": [
+      {
+          "en": {
+            "title": "Unlock screen",
+            "description": "This command allows you to unlock the screen of the computer.",
+            "title_options": "Select Option",
+            "options": null
+          },
+          "es": {
+            "title": "Desbloquear pantalla",
+            "description": "Este comando permite desbloquear la pantalla de la computadora.",
+            "title_options": "Seleccione una opción",
+            "options": null
+          },
+          "pr": {
+            "title": "Desbloquear tela",
+            "description": "Este comando permite desbloquear a tela do computador.",
+            "title_options": "Selecione uma opção",
+            "options": null
+          },
+          "form": {
+            "css": "modal-lg",
+            "inputs": [
+                {
+                    "type": "input",
+                    "placeholder": {
+                        "es": "result",
+                        "en": "result",
+                        "pr": "result"
+                    },
+                    "title": {
+                        "es": "Asignar resultado a la variable:",
+                        "en": "Assign result to variable:",
+                        "pr": "Atribuir resultado à variável:"
+                    },
+                    "description":{
+                        "es": "Variable para guardar el resultado del desbloqueo de pantalla.",
+                        "en": "Variable to save the result of the screen unlock.",
+                        "pr": "Variável para salvar o resultado do desbloqueio da tela."
+                    },
+                    "help": {
+                        "es": "Nombre de la variable sin {}",
+                        "en": "Variable name without {}",
+                        "pr": "Nome da variável sem {}"
+                    },
+                    "remove_vars": true,
+                    "id": "result",
+                    "css": "col-md-12",
+                    "data_type": "str",
+                    "default": null,
+                    "required": false
+                }
+            ]
+          },
+          "video_youtube": "",
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAI0SURBVEiJpdU/aJ5VFMfxz3mNdNBoQAp1cYtSxVAFO6mFLC4uLg6KzdCI0qUOGqlI7VIQgp0cQ0EjDkEQMSFoOpVSStMsEkFJFepiSqVN0sEQrMfhua998+bJ+6c5cOHynHN/3/uce869MtNuA4P4BAu4jd/xDd7otK51RBHaYRHxMr7ArSK6VICH8S4uYjwz/6wVaNouO38Sf+MMBmr8TxTAJTQ6ZqFmceACplvEZvAXfsUHaGA/buD9fgHPYRNDeLjk/TLGcAo3MVli38ZKv4BxXGkRuINHWvxH8Q8ewlP4F4PF1yhr3mvGN2qO5Vksl/kI5jJzo8U/g7s4iJUyH46Ix3C1nNsfzeCBGsA+bJX5gyVd/1tmbkbELD7GT6ryXcbjmMXZzFxrxtf9QS82oUrdi3gzM7cy8zpOt4rfNyAzf8vMtzJzNDMXICJGsBYRH0XEvmbstkaLiFFMFvAPeEWVxrkuzHV8rarAz7CUma9vA0TEBD7EedS39+42hFEMYxUHSsq0lucvGOtyL0UH/zxOtn9vtO1ivX1rETEUEedUXXstIt7pkKZH2z/WlWm7HcMLOKJqrKmI+C4zV3tY21MVvYYvM3MxM7/Cz3i1F/FeAd9iLCIaEXEIz+heVX0Bporo86p0zXd9A/oBZGbz4AdUV8eOQtgTYK/WD2ACL+0F0Kl7T2ADi/i8Q9wOjdarYqYEfNoFVmdDmMbxzPx+O/Jeqz+NH1UvVPY51sufPdB+VfwHHCLJuQ2Z6gMAAAAASUVORK5CYII=",
+          "module": "Linux",
+          "module_name": "unlock_screen",
+          "visible": true,
+          "options": false,
+          "father": "module",
+          "group": "scripts",
+          "linux": true,
+          "windows": false,
+          "mac": false,
+          "docker": true
+        }
+    ]
+  }
+  
